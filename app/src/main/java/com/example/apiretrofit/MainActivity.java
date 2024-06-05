@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onResponse(Call<ApiResponse> call, Response<ApiResponse> response) {
                         if (response.isSuccessful() && response.body() != null) {
                             // Display the response from the server
-                            textView.setText(new Gson().toJson(response.body()));
+                            textView.setText("Post Response was successful");
                         } else {
                             // Indicate that the POST request was not successful
                             textView.setText("Post Response was not successful");
