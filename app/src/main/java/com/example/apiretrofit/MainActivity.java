@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText idInput, firstNameInput, lastNameInput, addressInput, rollNumberInput, mobileInput;
 
     // Base URL for the API
-    private static final String BASE_URL = "https://6bf0-98-97-42-40.ngrok-free.app/";
+    private static final String BASE_URL = "https://rnpto-68-116-2-114.a.free.pinggy.link/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
